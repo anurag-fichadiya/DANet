@@ -1,2 +1,2 @@
-build: main.cpp
-	gcc main.cpp -o danet -lcurl
+build: main.c
+	@gcc main.c -I ./include -o danet -lcurl
