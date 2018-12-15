@@ -29,7 +29,7 @@ int main()
     fprintf(stderr, "curl_easy_perform() failed: %s\n",
       curl_easy_strerror(res));
   } else {
-    hello(chunk.memory);
+    printf("%s", chunk.memory);
   }
 
   curl_easy_cleanup(curl_handle);
