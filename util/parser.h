@@ -19,7 +19,7 @@ void hello(char *str, char *pattern){
 
   while(ch != '\0'){
     printf("%c", ch);
-    ch = str[index++];
+    ch = str[ch_ind++];
     if(ch == pattern[ch_ind]){
       ch_ind += 1;
       if(ch_ind == pattern_size){
@@ -30,6 +30,4 @@ void hello(char *str, char *pattern){
       ch_ind = 0;
     }
   }
-
-  printf("%d", index);
 }
