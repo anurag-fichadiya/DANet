@@ -5,5 +5,6 @@ A Unix Shell to Navigate through files and folders of intranet@daiict.ac.in and 
 ```
 # requires curl library
 # install using following command
-$ sudo apt-get install libcurl4-gnutls-dev
+$ sudo apt-get install libcurl4-gnutls-dev # FOR UBUNTU
+$ sudo pacman -S libcurl-gnutls # For Arch based distros
 ```
